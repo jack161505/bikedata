@@ -88,7 +88,7 @@ export default {
   name: 'HelloWorld',
   data () {
     return {
-      msg: 'This is a bikedata web'
+      msg: 'This is a bikedata web2'
     }
   }
 }
