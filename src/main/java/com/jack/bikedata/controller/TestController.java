@@ -9,7 +9,7 @@ public class TestController {
     @RequestMapping("/list")
     public String getList()
     {
-        String list="test";
+        String list="test2";
         return list;
     }
 }
