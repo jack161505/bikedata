@@ -19,4 +19,11 @@ public class TestController {
         int result=id;
         return result;
     }
+
+    @RequestMapping("/deletebyid")
+    public int deleteById(int id)
+    {
+        int resultcode=id;
+        return resultcode;
+    }
 }
