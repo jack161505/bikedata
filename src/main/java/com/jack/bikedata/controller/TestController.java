@@ -12,4 +12,11 @@ public class TestController {
         String list="test2";
         return list;
     }
+
+    @RequestMapping("/updatebyid")
+    public int updateById(int id)
+    {
+        int result=id;
+        return result;
+    }
 }
